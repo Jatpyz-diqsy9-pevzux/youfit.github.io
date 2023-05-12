@@ -1,0 +1,466 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: aqua;
+  height: 80px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+nav ul {
+  float: left;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  color: black;
+  padding: 10px 50px;
+  font-size: 1.5em;
+}
+
+.youfit-nav {
+  color: blueviolet;
+  line-height: 80px;
+  font-size: 1.5em;
+}
+
+/**===responsive=====**/
+@media (min-width: 340px) {
+  nav {
+    background-color: aqua;
+    height: 80px;
+    width: 100%;
+  }
+  nav ul {
+    text-align: center;
+  }
+  nav ul li {
+    display: flex;
+    display: inline-block;
+    list-style: none;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 2px;
+    font-size: 0.8em;
+    margin: 0px;
+  }
+}
+@media (min-width: 520px) {
+  nav {
+    background-color: aqua;
+    height: 80px;
+    width: 100%;
+  }
+  nav ul {
+    background-color: aqua;
+  }
+  nav ul li {
+    display: inline-block;
+  }
+  nav ul li a {
+    color: black;
+    padding: 8px;
+    font-size: 1.5em;
+  }
+}
+@media (min-width: 720px) {
+  nav {
+    background-color: aqua;
+    height: 80px;
+    width: 100%;
+  }
+  nav ul li {
+    display: inline-block;
+  }
+  nav ul li a {
+    color: black;
+    padding: 10px;
+    font-size: 2em;
+  }
+}
+body {
+  min-height: 100vh;
+}
+
+.body-index {
+  background-image: linear-gradient(rgba(101, 100, 100, 0.54), rgba(62, 63, 64, 0.667)), url(../media/gym-complejo-empresarial.jpeg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+h1 {
+  background-color: rgb(215, 215, 215);
+  text-align: center;
+  padding: 20px;
+}
+
+.title-h1 {
+  color: blueviolet;
+}
+
+.container-img {
+  max-width: 1000px;
+  min-width: 320px;
+  margin: auto;
+}
+
+.portada-black-and-white {
+  width: 100%;
+  border-radius: 15px;
+  padding-top: 10px;
+}
+
+/***==bootstrap==***/
+.card {
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.card-body {
+  background-color: rgb(193, 193, 193);
+}
+
+.div-card {
+  display: flex;
+  align-items: baseline;
+}
+
+/***==article==***/
+.div-article {
+  text-align: center;
+}
+
+.button-div {
+  background-color: rgba(128, 128, 128, 0);
+  text-align: center;
+}
+
+.button-div button {
+  background-color: blueviolet;
+  margin: 50px;
+  padding: 20px;
+  border-radius: 13px;
+}
+
+.button-div button a {
+  color: white;
+  text-decoration: none;
+  font-size: 2em;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.h3-article {
+  background-color: aqua;
+  border-radius: 13px;
+  font-size: 2em;
+}
+
+.parrafo-article {
+  background-color: rgb(215, 215, 215);
+  padding: 20px;
+  font-size: 1.4em;
+}
+
+footer {
+  background-color: rgb(66, 65, 65);
+  padding: 20px;
+  margin-top: auto;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  color: white;
+}
+
+@media (max-width: 520px) {
+  .h3-article {
+    font-size: 1.5em;
+  }
+  .parrafo-article {
+    font-size: 1.1em;
+  }
+  .button-div button a {
+    font-size: 1em;
+  }
+}
+.body-sedes {
+  background-image: linear-gradient(rgba(101, 100, 100, 0.54), rgba(62, 63, 64, 0.667)), url(/media/gym-complejo-empresarial.jpeg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.d-block {
+  height: 700px;
+}
+
+.h2-sedes {
+  font-size: 3em;
+  background-color: rgba(0, 0, 0, 0.545);
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.h3-sedes {
+  background-color: aqua;
+  padding: 20px;
+  text-align: center;
+  font-size: 2em;
+}
+
+.p-sedes {
+  background-color: rgb(167, 167, 167);
+  padding: 50px;
+  font-size: 1.2em;
+}
+
+@media (min-width: 360px) {
+  .d-block {
+    height: 300px;
+  }
+}
+@media (min-width: 520px) {
+  .d-block {
+    height: 500px;
+  }
+}
+@media (min-width: 720px) {
+  .d-block {
+    height: 700px;
+  }
+}
+.body-conocenos {
+  background-image: linear-gradient(rgba(66, 96, 131, 0.54), rgba(52, 44, 71, 0.667)), url(../media/gym-fondo-conocenos.jpeg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.youfit-p {
+  color: blueviolet;
+  font-size: 1.2em;
+}
+
+.p-conocenos {
+  background-color: rgb(188, 184, 184);
+  font-size: 1.2em;
+  padding: 20px;
+  margin-top: 15px;
+  color: black;
+}
+
+.lema {
+  color: blueviolet;
+}
+
+.div-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.img-conocenos {
+  padding: 10px;
+  margin: 10px;
+  height: 600px;
+  width: 700px;
+}
+
+.p-conocenos-2 {
+  background-color: aqua;
+  padding: 15px;
+  font-size: 2em;
+}
+
+.footer-conocenos {
+  margin-top: auto;
+}
+
+@media (min-width: 360px) {
+  .img-conocenos {
+    height: 350px;
+    width: 350px;
+  }
+  .p-conocenos {
+    font-size: 1em;
+  }
+  .p-conocenos-2 {
+    font-size: 1em;
+  }
+  .div-img {
+    display: grid;
+    grid-column: auto;
+  }
+}
+@media (max-width: 520px) {
+  .img-conocenos {
+    height: 400px;
+    width: 400px;
+  }
+}
+.p-conocenos-2 {
+  font-size: 1.2em;
+}
+
+.p-conocenos {
+  font-size: 1.2em;
+}
+
+@media (min-width: 720px) {
+  .img-conocenos {
+    height: 100%;
+    width: 100%;
+  }
+  .div-img {
+    display: flex;
+    width: 75vw;
+    max-width: 1000px;
+    min-width: 360px;
+  }
+}
+.body-planes {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(rgba(153, 153, 153, 0.17), rgba(255, 255, 255, 0.667)), url(/media/gym-complejo-empresarial.jpeg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.h2-planes {
+  background-color: aqua;
+  text-align: center;
+  margin: 20px;
+  border-radius: 13px;
+}
+
+.div-entrenamientos {
+  text-align: center;
+  background-color: rgba(215, 215, 215, 0.701);
+  margin: 20px;
+  padding-bottom: 30px;
+  border-radius: 13px;
+  max-width: 1000px;
+  min-width: 320px;
+  margin: auto;
+}
+
+.div-entrenamientos h2 {
+  font-size: 3em;
+}
+
+.div-entrenamientos p {
+  font-size: 2em;
+}
+
+.div-entrenamientos a {
+  font-size: 2em;
+  background-color: blueviolet;
+  border-radius: 13px;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+.div-tarjetas {
+  width: 100vw;
+  max-width: 1000px;
+  min-width: 320px;
+  margin: auto;
+  display: flex;
+  margin-top: 0;
+  border-radius: 13px;
+  background-color: rgba(233, 233, 233, 0);
+}
+
+.div-tarjetas img {
+  width: 40%;
+  margin: auto;
+}
+
+.div-tarjetas-grupales {
+  width: 100vw;
+  max-width: 1000px;
+  min-width: 320px;
+  margin: auto;
+  display: flex;
+  margin-top: 0;
+  border-radius: 13px;
+  background-color: rgba(233, 233, 233, 0);
+}
+
+.div-tarjetas-grupales img {
+  width: 100%;
+  margin: auto;
+  border-radius: 13px;
+}
+
+.article {
+  background-color: rgb(215, 215, 215);
+}
+
+.footer-planes {
+  margin-top: auto;
+}
+
+@media (max-width: 508px) {
+  .div-entrenamientos a {
+    font-size: 1.1em;
+  }
+}
+.body-contactos {
+  background-image: linear-gradient(rgba(101, 100, 100, 0.54), rgba(62, 63, 64, 0.667)), url(/media/gym-complejo-empresarial.jpeg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.row {
+  background-color: rgba(31, 30, 30, 0);
+  padding: 50px;
+}
+
+.form-label {
+  color: white;
+}
+
+.form-floating {
+  background-color: rgba(79, 79, 79, 0);
+}
+
+.div-h2 {
+  background-color: aqua;
+  border-radius: 15px;
+}
+
+.div-h2 h2 {
+  text-align: center;
+}
+
+.div-footer {
+  margin-top: auto;
+}/*# sourceMappingURL=sass.css.map */

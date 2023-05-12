@@ -1,0 +1,100 @@
+.body-conocenos{
+    background-image:linear-gradient(rgba(66, 96, 131, 0.54), rgba(52, 44, 71, 0.667)), url(../media/gym-fondo-conocenos.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+}
+
+
+.youfit-p{
+    color: blueviolet;
+    font-size: 1.2em;
+}
+.p-conocenos{
+    background-color: rgb(188, 184, 184);
+font-size: 1.2em;
+padding: 20px;
+margin-top: 15px;
+color: black;
+}
+
+.lema{
+    color: blueviolet;
+}
+
+.div-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.img-conocenos{
+    padding: 10px;
+    margin: 10px;
+    height: 600px;
+    width: 700px;
+}
+
+.p-conocenos-2{
+    background-color: aqua;
+    padding: 15px;
+    font-size: 2em;
+}
+
+.footer-conocenos{
+    margin-top: auto;
+}
+
+
+@media (min-width:360px){
+    .img-conocenos{
+    height: 350px;
+    width: 350px;
+    }
+    .p-conocenos{
+        font-size: 1em;
+    }
+    .p-conocenos-2{
+        font-size: 1em;
+    }
+    .div-img{
+        display: grid;
+        grid-column: auto;
+    }
+}
+
+@media(max-width:520px){
+    .img-conocenos{
+        height: 400px;
+        width: 400px;
+        }
+    }
+
+    .p-conocenos-2{
+        font-size: 1.2em;
+    }
+
+    .p-conocenos{
+        font-size: 1.2em;
+    }
+
+@media(min-width:720px){
+    .img-conocenos{
+
+        height: 100%;
+        width: 100%;
+        }
+        .div-img{
+            display: flex;
+            width: 75vw;
+            max-width: 1000px;
+            min-width: 360px;
+            
+        }
+}

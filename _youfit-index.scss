@@ -1,0 +1,116 @@
+body{
+    min-height: 100vh;
+}
+.body-index{
+    background-image:linear-gradient(rgba(101, 100, 100, 0.54), rgba(62, 63, 64, 0.667)), url(../media/gym-complejo-empresarial.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+}
+
+h1{
+    background-color: rgb(215, 215, 215);
+    text-align: center;
+    padding: 20px;
+}
+
+.title-h1{
+    color: blueviolet;
+
+}
+
+.container-img{
+max-width: 1000px;
+min-width: 320px;
+margin: auto;
+
+}
+
+.portada-black-and-white{
+    width: 100%;
+    border-radius: 15px;
+    padding-top: 10px;
+}
+
+/***==bootstrap==***/
+.card{
+    margin:auto ;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.card-body{
+    background-color: rgb(193, 193, 193);
+}
+
+.div-card{
+    display:flex;
+    align-items: baseline;
+}
+
+/***==article==***/
+.div-article{
+    text-align: center;
+}
+
+.button-div{
+    background-color: rgba(128, 128, 128, 0);
+    text-align: center;
+}
+
+.button-div button{
+    background-color: blueviolet;
+    margin: 50px;
+    padding: 20px;
+    border-radius: 13px;
+}
+
+.button-div button a{
+    color:white ;
+    text-decoration: none;
+    font-size: 2em;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.h3-article{
+    background-color: aqua;
+    border-radius: 13px;
+    font-size: 2em;
+}
+
+.parrafo-article{
+    background-color:rgb(215, 215, 215) ;
+    padding: 20px;
+    font-size: 1.4em;
+}
+
+footer{
+    background-color: rgb(66, 65, 65);
+    padding: 20px;
+    margin-top: auto;
+    position:relative;
+    bottom: 0;
+    width: 100%;
+    color: white;
+}
+
+
+@media(max-width:520px){
+
+    .h3-article{
+        font-size: 1.5em;
+    }
+
+    .parrafo-article{
+        font-size: 1.1em;
+    }
+
+    .button-div button a{
+        font-size: 1em;
+    }
+}

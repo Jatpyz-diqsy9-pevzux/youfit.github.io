@@ -1,0 +1,39 @@
+.body-contactos{
+
+    background-image:linear-gradient(rgba(101, 100, 100, 0.54), rgba(62, 63, 64, 0.667)), url(/media/gym-complejo-empresarial.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+}
+
+.row{
+    background-color: rgba(31, 30, 30, 0);
+    padding: 50px;
+}
+
+.form-label{
+    color: white;
+}
+
+.form-floating{
+    background-color: rgba(79, 79, 79, 0);
+}
+
+.div-h2{
+    background-color: aqua;
+    border-radius: 15px;
+}
+.div-h2 h2{
+    text-align: center;
+}
+
+
+.div-footer{
+    margin-top: auto;
+}
+

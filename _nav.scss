@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: aqua;
+    height: 80px;
+    width: 100%;
+    margin-bottom: 10px;
+    ul{
+        float:left;
+        li{
+            display: inline-block;
+            a{
+                color: black;
+                padding: 10px 50px;
+                font-size: 1.5em;
+            }
+        }
+    }
+}
+
+.youfit-nav{
+    color: blueviolet;
+    line-height: 80px;
+    font-size: 1.5em;
+    
+}
+
+/**===responsive=====**/
+
+@media (min-width:340px){
+    nav{
+        background-color: aqua;
+        height: 80px;
+        width: 100%;
+        
+        ul{
+            text-align: center;
+            
+            li{
+                display: flex;
+                display: inline-block;
+                list-style: none;
+                
+                a{
+                    text-decoration: none;
+                    color: black;
+                    padding: 2px;
+                    font-size: 0.8em;
+                    margin: 0px;
+                    
+                    
+                }
+            }
+        }
+    }
+    
+}
+
+
+ @media(min-width:520px){
+    nav{
+        background-color: aqua;
+        height: 80px;
+        width: 100%;
+        
+        ul{
+            background-color:aqua;
+            
+            li{
+                display: inline-block;
+                
+                a{
+                    color: black;
+                    padding:8px;
+                    font-size: 1.5em;
+                }
+            }
+        }
+    }
+    
+}
+
+@media(min-width:720px){
+    nav{
+        background-color: aqua;
+        height: 80px;
+        width: 100%;
+        
+        ul{
+            
+            li{
+                display: inline-block;
+                a{
+                    color: black;
+                    padding: 10px;
+                    font-size: 2em;
+                }
+            }
+        }
+    }
+    
+}
